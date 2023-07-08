@@ -15,12 +15,10 @@ console.log("Server is running at port 3000");
 app.get("/", function (req, res) {
 res.sendFile(__dirname + "/signup.html");
 });
-//Setting up MailChimp
-// c5d5a2527d03d34372cb34b9c39ff731-us14
-// 4b99b95115
+
 mailchimp.setConfig({
 //*****************************ENTER YOUR API KEY HERE******************************
-apiKey: "c5d5a2527d03d34372cb34b9c39ff731-us14",
+apiKey: "apikey",
 //*****************************ENTER YOUR API KEY PREFIX HERE i.e.THE SERVER******************************
 server: "us14"
 });
